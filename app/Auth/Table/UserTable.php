@@ -8,6 +8,7 @@ use Core\Database\Table;
 class UserTable extends Table
 {
     public const TABLE = 'users';
+    public const ENTITY = User::class;
 
     /**
      * Récupère un utilisateur depuis son nom d'utilisateur.
